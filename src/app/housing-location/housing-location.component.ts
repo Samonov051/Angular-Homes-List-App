@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 import { HousingLocation } from '../housinglocation';
 
@@ -9,7 +9,8 @@ import { HousingLocation } from '../housinglocation';
   standalone: true,
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    RouterOutlet,
   ],
   template: `
   <section class="listing">
