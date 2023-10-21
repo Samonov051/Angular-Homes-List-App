@@ -1,6 +1,9 @@
-# MyApp
+# Angular Tutorial - Build your first Angular app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+## Conceptual preview of your first Angular app
+
+The lessons in this tutorial create an Angular app that lists houses for rent and shows the details of individual houses. This app uses features that are common to many Angular apps.
+<img src="https://github.com/artur-herus/Angular-Homes-List-App/assets/142362211/f1bbfcde-0819-469f-92b6-8c5ee5f1e63d" />
 
 ## Development server
 
