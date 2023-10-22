@@ -7,7 +7,14 @@ The lessons in this tutorial create an Angular app that lists houses for rent an
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Front End
+
+Run `ng serve` for a front-end dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+### Back End
+
+Run `json-server --watch db.json` for a JSON server. Navigate to the http://localhost:3000/locations and confirm that the response includes the data stored in db.json.
+If you have any trouble with your configuration, you can find more details in the [Add HTTP communication to your app](https://angular.io/tutorial/first-app/first-app-lesson-14) page.
 
 ## Code scaffolding
 
